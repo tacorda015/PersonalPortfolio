@@ -11,7 +11,7 @@ export default function HeroPage() {
       {/* Hero Content */}
       <div className="relative flex flex-col gap-5 text-slate-400 justify-center items-center pt-[13%] pb-[5%] px-0">
         {/* Add your content here */}
-        <span className="text-slate-400 text-6xl font-bold text-center">Hi, I'M Eduardo</span>
+        <span className="text-slate-400 text-6xl font-bold text-center">Hi, I'm Eduardo</span>
         <span className='text-center text-2xl'>Full Stack Developer | Bridging Ideas & Execution</span>
       </div>
 
