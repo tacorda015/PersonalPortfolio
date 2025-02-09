@@ -14,7 +14,7 @@ export default function ExperiencePage() {
   const months = diffInMonths % 12;
 
   return (
-    <div id="experience" className="min-h-screen flex flex-col gap-8 items-center px-7 md:px-32 pt-24 text-center">
+    <div id="experience" className="min-h-screen flex flex-col gap-8 items-center px-7 md:px-32 pt-24 text-center mb-5">
       <div className="text-slate-200 text-4xl font-bold">What I Do</div>
 
       <div>
