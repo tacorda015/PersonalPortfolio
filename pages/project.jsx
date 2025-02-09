@@ -9,7 +9,7 @@ export default function ProjectPage() {
       {/* First Project */}
       <div className="flex justify-end w-full mt-5 text-[#64ffda] relative">
         <div className="hidden lg:block border rounded-lg shadow-md shadow-[#64ffda] h-64 w-[460px] absolute top-1/2 -translate-y-1/2 left-0">
-          <Image src={'/Images/FacilityWorkOrder.jfif'} alt={'Facility'} fill />
+          <Image src={'/Images/FacilityWorkOrder.jpg'} alt={'Facility'} fill />
         </div>
         <div className="flex flex-col gap-4 text-right">
           <span className="text-sm font-semibold">Feature Project</span>
@@ -20,7 +20,7 @@ export default function ProjectPage() {
           </span>
 
           <div className="border h-auto w-full block lg:hidden">
-              <Image src={'/Images/FacilityWorkOrder.jfif'} alt={'Facility'} height={500} width={500} />
+              <Image src={'/Images/FacilityWorkOrder.jpg'} alt={'Facility'} height={500} width={500} />
           </div>
 
           <div>
@@ -39,7 +39,7 @@ export default function ProjectPage() {
       {/* Second Project */}
       <div className="flex justify-start w-full mt-16 text-[#64ffda] relative">
         <div className="hidden lg:block border rounded-lg shadow-md shadow-[#64ffda] h-64 w-[460px] absolute top-1/2 -translate-y-1/2 right-0">
-          <Image src={'/Images/QualitySystem.jfif'} alt={'Facility'} fill />
+          <Image src={'/Images/QualitySystem.jpg'} alt={'Facility'} fill />
         </div>
         <div className="flex flex-col gap-4 text-left">
           <span className="text-sm font-semibold">Feature Project</span>
@@ -50,7 +50,7 @@ export default function ProjectPage() {
           </span>
 
           <div className="border h-auto w-full block lg:hidden">
-              <Image src={'/Images/QualitySystem.jfif'} alt={'Facility'} height={500} width={500} />
+              <Image src={'/Images/QualitySystem.jpg'} alt={'Facility'} height={500} width={500} />
           </div>
 
           <div>
@@ -68,7 +68,7 @@ export default function ProjectPage() {
       {/* Third Project */}
       <div className="flex justify-end w-full mt-16 text-[#64ffda] relative">
         <div className="hidden lg:block border rounded-lg shadow-md shadow-[#64ffda] h-64 w-[460px] absolute top-1/2 -translate-y-1/2 left-0">
-          <Image src={'/Images/ProductionOutputMonitoring.jfif'} alt={'Facility'} fill />
+          <Image src={'/Images/ProductionOutputMonitoring.jpg'} alt={'Facility'} fill />
         </div>
         <div className="flex flex-col gap-4 text-right items-end">
           <span className="text-sm font-semibold">Feature Project</span>
@@ -79,7 +79,7 @@ export default function ProjectPage() {
           </span>
 
           <div className="border h-auto block lg:hidden">
-              <Image src={'/Images/ProductionOutputMonitoring.jfif'} alt={'Facility'} height={500} width={500} />
+              <Image src={'/Images/ProductionOutputMonitoring.jpg'} alt={'Facility'} height={500} width={500} />
           </div>
 
           <div>
