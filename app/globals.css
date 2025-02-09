@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* Move left by half the container's width */
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content; /* Ensure the container is only as wide as its content */
+  animation: scroll 20s linear infinite; /* Adjust duration for smoothness */
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
